@@ -609,6 +609,7 @@ font-size: large;
   font-size: var(--fs-xl);
   margin-bottom: 3rem;
   text-align: center;
+  transition: var(--transition);
 }
 
 .internship__description {
@@ -616,15 +617,18 @@ font-size: large;
   margin-bottom: 1rem;
   text-align: center;
   font-size: var(--fs-xl);
+  transition: var(--transition);
 }
 .internship__description:hover {
   color: black;
+  transition: var(--transition);
 }
 
 .internship__content {
   color: rgb(0, 0, 0);
   text-align: justify;
   padding: 0 1rem;
+  transition: var(--transition);
 }
 
 /* Responsive styles for mobile */
@@ -641,4 +645,10 @@ font-size: large;
     font-size: var(--fs-sm);
     padding: 0 0.5rem;
   }
+}
+.project-link{
+  color: white;
+}
+.project-link:hover{
+  color: black
 }

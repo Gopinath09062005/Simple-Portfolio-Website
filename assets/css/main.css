@@ -604,32 +604,41 @@ font-size: large;
 
 
 /* Internship */
-.internship__title{
+.internship__title {
   color: black;
   font-size: var(--fs-xl);
   margin-bottom: 3rem;
   text-align: center;
 }
 
-/* Center on mobile */
-@media (max-width: 560px) {
-  .internship__title {
-    text-align: center;
-    color: black;
-  }
-}
-
-.internship__description{
+.internship__description {
   color: gray;
   margin-bottom: 1rem;
   text-align: center;
- font-size: var(--fs-xl);
+  font-size: var(--fs-xl);
 }
-.internship__description:hover{
+.internship__description:hover {
   color: black;
-
 }
- .internship__content{
-color: rgb(0, 0, 0);
-text-align: justify;
- }
+
+.internship__content {
+  color: rgb(0, 0, 0);
+  text-align: justify;
+  padding: 0 1rem;
+}
+
+/* Responsive styles for mobile */
+@media (max-width: 560px) {
+  .internship__title {
+    font-size: var(--fs-lg);
+    margin-bottom: 2rem;
+  }
+  .internship__description {
+    font-size: var(--fs-md);
+    margin-bottom: 1rem;
+  }
+  .internship__content {
+    font-size: var(--fs-sm);
+    padding: 0 0.5rem;
+  }
+}

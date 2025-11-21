@@ -608,8 +608,14 @@ font-size: large;
   color: black;
   font-size: var(--fs-xl);
   margin-bottom: 3rem;
-  text-align: center;
+  text-align: center;  
 }
+.internship__title small{
+  font-size: var(--fs-md);
+text-align: center;
+color: black;
+}
+
 .internship__description{
   color: gray;
   margin-bottom: 1rem;

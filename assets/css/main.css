@@ -601,3 +601,26 @@ font-size: large;
   flex-direction: column; /* ✅ stack vertically */
   justify-content: flex-start;
 }
+
+
+/* Internship */
+.internship__title{
+  color: black;
+  font-size: var(--fs-xl);
+  margin-bottom: 3rem;
+  text-align: center;
+}
+.internship__description{
+  color: gray;
+  margin-bottom: 1rem;
+  text-align: center;
+ font-size: var(--fs-xl);
+}
+.internship__description:hover{
+  color: black;
+
+}
+ .internship__content{
+color: rgb(0, 0, 0);
+text-align: justify;
+ }
